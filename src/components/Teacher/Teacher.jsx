@@ -4,8 +4,8 @@ import {useNavigate} from "react-router-dom";
 import {io} from 'socket.io-client';
 import {Slider} from '@mui/material';
 
-// const URL = process.env.NODE_ENV === 'production' ? undefined : 'http://localhost:3000';
-const URL = 'https://instavote-backend.onrender.com';
+
+const URL = 'http://localhost:3000';
 
 
 const Teacher = () => {
